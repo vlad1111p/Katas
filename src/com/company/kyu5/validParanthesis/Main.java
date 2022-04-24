@@ -8,6 +8,7 @@ public class Main {
         if (chars[0] == ')') {
             return false;
         }
+
         for (int i = 0; i < chars.length; i++) {
             if (j == 0 && chars[i] == ')') {
                 return false;
