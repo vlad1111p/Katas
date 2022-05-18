@@ -1,13 +1,17 @@
 package com.company.kyu4.nextBiggerNumber;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 
 public class Kata {
 
     public static long nextBiggerNumber(long n) {
         char[] digits = String.valueOf(n).toCharArray();
+
+
         for (int i = digits.length-1; i > 0; i--) {
             if (digits[i] > digits[i-1]) {
                 int nBiggerIndex = i;
