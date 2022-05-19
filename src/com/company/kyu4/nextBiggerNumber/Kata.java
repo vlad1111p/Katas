@@ -36,15 +36,3 @@ public class Kata {
     }
 }
 
-//        for (int i = 0; i < numbers.length; i++) {
-//            if (numbers[i] < point && numbers[i] > max && i != 0) {
-//                max = numbers[i];
-//            }
-//        }
-//
-//        for (int i = 0; i < numbers.length; i++) {
-//            if (numbers[i] == max) {
-//                numbers[i] = numbers[i - 1];
-//                numbers[i - 1] = max;
-//            }
-//        }
