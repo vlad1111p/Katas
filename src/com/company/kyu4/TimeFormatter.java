@@ -28,7 +28,6 @@ public class TimeFormatter {
                         .append(time[i] > 1 ? "s" : "")
                         .append(time[2]>0 && time[3]>0 && time[4]==0 && i==time.length-3 ? " and " : "")
                         .append(time[4]>0 && time[3]>0 && i==time.length-2 ? " and " : "")
-
                         .append((i==0 && time[i] > 0 && time[i+3]>0)||
                                 (i==0 && time[i] > 0 && time[i+2]>0)||
                                 (i==0 && time[i] > 0 && time[i+4]>0)||
