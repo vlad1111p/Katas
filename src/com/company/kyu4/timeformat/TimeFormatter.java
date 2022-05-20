@@ -1,4 +1,4 @@
-package com.company.kyu4;
+package com.company.kyu4.timeformat;
 
 public class TimeFormatter {
 
